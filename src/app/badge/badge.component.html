@@ -1,0 +1,126 @@
+
+    <h1>Table Style</h1>
+    <div #badgeTable class="badge-container">
+      <img src="../../assets/images/Badge-Banner.png" alt="Badge Banner" class="Badge-Banner">
+      <table>
+        <thead>
+          <tr>
+            <th style="background: #34bc88;">Industry</th>
+            <th style="background: #4d8df5;">Functions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="Industry">
+              <div class="content-wrapper">
+                <span class="chevron"></span>
+                <span class="text">Consumer</span>
+              </div>
+            </td>
+            <td class="Functions">
+              <div class="content-wrapper">
+                <span class="chevron"></span>
+                <span class="text">Finance</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="Industry">
+              <div class="content-wrapper">
+                <span class="chevron"></span>
+                <span class="text">Manufacturing</span>
+              </div>
+            </td>
+            <td class="Functions">
+              <div class="content-wrapper">
+                <span class="chevron"></span>
+                <span class="text">Supply Chain</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="Industry">
+              <div class="content-wrapper">
+                <span class="chevron"></span>
+                <span class="text">Financial & Business Services</span>
+              </div>
+            </td>
+            <td class="Functions">
+              <div class="content-wrapper">
+                <span class="chevron"></span>
+                <span class="text">HR & Workforce</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="Industry">
+              <div class="content-wrapper">
+                <span class="chevron"></span>
+                <span class="text">Technology, Media & Telecom</span>
+              </div>
+            </td>
+            <td class="Functions">
+              <div class="content-wrapper">
+                <span class="chevron"></span>
+                <span class="text">Sales & Marketing</span>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <button (click)="captureBadgeTable()">Download Badge</button>
+
+
+    <h1>List Style</h1>
+    <div #badgeList class="badge-container">
+      <img src="../../assets/images/Badge-Banner.png" alt="Badge Banner" class="Badge-Banner-List">
+
+      <div class="list-container">
+        <ul class="list">
+          <li class="list-header Industry" style="background: #34bc88;">Industry</li>
+          <li class="Industry list-content-wrapper">
+            <span class="chevron"></span>
+            <span class="text">Consumer</span>
+          </li>
+          <li class="Industry list-content-wrapper">
+            <span class="chevron"></span>
+            <span class="text">Manufacturing</span>
+          </li>
+          <li class="Industry list-content-wrapper">
+            <span class="chevron"></span>
+            <span class="text">Financial & <br />Business Services</span>
+          </li>
+          <li class="Industry list-content-wrapper">
+            <span class="chevron"></span>
+            <span class="text">Technology, <br />Media & Telecom</span>
+          </li>
+        </ul>
+        <ul class="list">
+          <li class="list-header Functions" style="background: #4d8df5;">Functions</li>
+          <li class="Functions list-content-wrapper">
+            <span class="chevron"></span>
+            <span class="text">Finance</span>
+          </li>
+          <li class="Functions list-content-wrapper">
+            <span class="chevron"></span>
+            <span class="text">Supply Chain</span>
+          </li>
+          <li class="Functions list-content-wrapper">
+            <span class="chevron"></span>
+            <span class="text">HR & <br />Workforce</span>
+          </li>
+          <li class="Functions list-content-wrapper">
+            <span class="chevron"></span>
+            <span class="text">Sales & <br />Marketing</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+    <button (click)="captureBadgeList()">Download Badge</button>
+
+
+
+
